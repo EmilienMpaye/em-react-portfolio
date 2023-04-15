@@ -17,7 +17,6 @@ a full stack developer with a passion for creating interactive and user-friendly
 
 I love to work on challenging projects that push the boundaries of what's possible with modern web development, and I'm constantly exploring new technologies and best practices to stay up-to-date with the latest industry trends.
 
-One of my specialties is developing responsive and accessible web applications that provide a consistent experience across different devices and platforms. I'm also skilled in creating mobile apps using React Native, which allows me to build native-like apps for iOS and Android with a single codebase, saving time and resources.
             </p>
             <br/>
             <p className=' lg:text-lg xl:text-xl'>
