@@ -3,13 +3,13 @@ import { FaGithub,FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
-const SocialLinks = () => {
+const SocialHide = () => {
     const links =[ 
         {
             id:1,
             child:(
                 <>
-                Linkedin<FaLinkedin size={30}/>
+                Linkedin<FaLinkedin size={20}/>
                 </>
             ),
           href:'https://Linkedin.com' ,
@@ -19,7 +19,7 @@ const SocialLinks = () => {
             id:2,
             child:(
                 <>
-                GitHub<FaGithub size={30}/>
+                GitHub<FaGithub size={20}/>
                 </>
             ),
           href:'https://github.com/EmilienMpaye' ,
@@ -28,17 +28,17 @@ const SocialLinks = () => {
             id:3,
             child:(
                 <>
-                Mail<HiOutlineMail size={30}/>
+                Mail<HiOutlineMail size={20}/>
                 </>
             ),
-          href:'mailto:foo@gmail.com' ,
+          href:'mailto:mpayimanaemilien@gmail.com' ,
         
         },
         {
             id:4,
             child:(
                 <>
-                Resume<BsFillPersonLinesFill size={30}/>
+                Resume<BsFillPersonLinesFill size={20}/>
                 </>
             ),
           href:'/Resume.pdf' ,
@@ -48,16 +48,14 @@ const SocialLinks = () => {
     ]
   return (
     
-    <div name="socialLinks" className='hidden lg:flex flex-col top-[35%] left-0 fixed '>
-        <ul>
+    <div name="socialLink" className=' flex items-center justify-center bg-gray-800 ' >
+        <ul className='flex flex-row space-x-2'>
              {links.map(({id,child,href,style,download})=>(
  
- <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 hover:ml-[-10px] ml-[-100px] hover:rounded-md duration-300  bg-gray-600" 
- + style } >
+ <li key={id}  >
     
      <a href={href} 
-     className='flex justify-between font-bold items-center w-full 
-      text-yellow-500  '
+     className=' text-yellow-500 font-bold flex flec-row  py-3'
       download={download}
       target='-blank'
       rel="noreferrer">
@@ -73,4 +71,4 @@ const SocialLinks = () => {
   )
 }
 
-export default SocialLinks 
+export default SocialHide

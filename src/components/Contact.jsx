@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialHide from './SocialHide'
 
 
 const Contact = () => {
@@ -26,9 +27,12 @@ const Contact = () => {
              mx-auto flex items-center rounded-md hover:scale-110 duration-300' >Let's talk</button>
           </form>
          </div>
+
       </div>
-      <div className='flex justify-center items-center'>
-     
+      <div>
+      <div  className="sm:hidden md:hidden  text-white py-2 px-4 rounded-md">
+        <SocialHide/>
+      </div>
       </div>
     </div>
   )
