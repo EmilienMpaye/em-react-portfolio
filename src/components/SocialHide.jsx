@@ -12,7 +12,7 @@ const SocialHide = () => {
                 Linkedin<FaLinkedin size={20}/>
                 </>
             ),
-          href:'https://Linkedin.com' ,
+          href:'https://www.linkedin.com/in/emilien-zia-2569b6256' ,
            style:'rounded-tr-md'
         },
         {

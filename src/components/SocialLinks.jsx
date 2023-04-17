@@ -12,7 +12,7 @@ const SocialLinks = () => {
                 Linkedin<FaLinkedin size={30}/>
                 </>
             ),
-          href:'https://Linkedin.com' ,
+          href:'https://www.linkedin.com/in/emilien-zia-2569b6256' ,
            style:'rounded-tr-md'
         },
         {
@@ -31,7 +31,7 @@ const SocialLinks = () => {
                 Mail<HiOutlineMail size={30}/>
                 </>
             ),
-          href:'mailto:foo@gmail.com' ,
+          href:'mailto:mpayimanaemilien@gmail.com' ,
         
         },
         {
