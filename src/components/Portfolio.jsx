@@ -4,13 +4,14 @@ import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import ranga from '../assets/portfolio/ranga.PNG';
 
 const Portfolio = () => {
     const portfolios = [
         {
           id:1,
-          src:arrayDestruct,   
+          src:ranga,
+        
         },
         {
             id:2,
@@ -30,7 +31,7 @@ const Portfolio = () => {
           },
           {
             id:6,
-            src:reactWeather,
+            src:arrayDestruct, 
           },
     ]
   return (

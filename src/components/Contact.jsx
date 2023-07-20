@@ -27,7 +27,9 @@ const Contact = () => {
              mx-auto flex items-center rounded-md hover:scale-110 duration-300' >Let's talk</button>
           </form>
          </div>
-
+         {/* I have 2 years of experience building and designing software.
+            Currently, I love to work on web applications using technologies like JavaScript,
+            React, React Native, Tailwind, Node.js, Firebase, and Sanity. */}
       </div>
       <div>
       <div  className="sm:hidden md:hidden  text-white py-2 px-4 rounded-md">

@@ -1,3 +1,4 @@
+import React from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
@@ -9,15 +10,13 @@ import SocialLinks from "./components/SocialLinks";
 function App() {
   return (
     <div>
-      
-    <NavBar/>
-    <Home/>
-    <About/>
-    <Portfolio />
-    <Experience/>
-    <Contact/>
-    
-    <SocialLinks/>
+     <NavBar />
+      <Home />
+      <About />     
+      <Portfolio /> 
+      <Experience /> 
+      <Contact/>
+      <SocialLinks />
     </div>
   );
 }
