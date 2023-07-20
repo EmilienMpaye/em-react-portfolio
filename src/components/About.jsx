@@ -14,7 +14,7 @@ const About = () => {
             Hi there! I'm  Emilien , 
 a full stack developer with a passion for creating interactive and user-friendly web applications and mobile apps.
  With over three years of experience in the field, I've honed my skills in a variety of technologies, including HTML, CSS, JavaScript, React, React Native, Nextjs ,Tailwind CSS, Firebase, Sanity, and GitHub for version control.
-I love to work on challenging projects that push the boundaries of what's possible with modern web development, and I'm constantly exploring new technologies and best practices to stay up-to-date with the latest industry trends.
+I love to work on challenging projects that push the boundaries of what's possible with modern web development, and I'm constantly exploring new technologies and best practices to stay up-to-date with the latest industry trends .
             </p>
             <br/>
             <p className=' lg:text-lg xl:text-xl mx-7'>
@@ -22,7 +22,7 @@ I love to work on challenging projects that push the boundaries of what's possib
             </p>
             <br/>
             <p className=' lg:text-lg xl:text-xl mx-7'>     
-Thank you for visiting my portfolio! I'm excited to share my work with you and look forward to discussing how I can contribute to your next web or mobile app project.
+Thank you for visiting my portfolio , I'm excited to share my work with you and look forward to discussing how I can contribute to your next web or mobile app project.
         </p>
             
         </div>
