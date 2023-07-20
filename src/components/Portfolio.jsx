@@ -1,8 +1,10 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
+import java from '../assets/portfolio/javapng.png';
+import product from '../assets/portfolio/product.png';
+
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import ranga from '../assets/portfolio/ranga.PNG';
 
@@ -31,8 +33,16 @@ const Portfolio = () => {
           },
           {
             id:6,
-            src:arrayDestruct, 
+            src:java, 
           },
+        
+          {
+            id:7,
+            src:product, 
+          },
+          
+          
+
     ]
   return (
     <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white'>

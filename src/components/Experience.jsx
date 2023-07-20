@@ -8,7 +8,7 @@ import sanityImage from "../assets/sanityImage.png"
 import github from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
 import reactNativeimg from "../assets/reactNativeimg.jpg"
-
+import next from "../assets/next.png"
 
 const Experience = () => {
     const techs =[
@@ -42,32 +42,38 @@ const Experience = () => {
           title:'React Native',
           style:'shadow-blue-400',
       },
-
+      {
+        id:6,
+        src:next,
+        title:'Next.js',
+        style:'shadow-blue-800',
+    },
 
         {
-            id:6,
+            id:7,
             src:tailwind,
             title:'Tailwind',
             style:'shadow-sky-400',
         },
         {
-            id:7,
+            id:8,
             src:firebaseImg,
             title:'Firebase',
             style:'shadow-yellow-400',
         },
         {
-            id:8,
+            id:9,
             src:sanityImage,
             title:'Sanity',
             style:'shadow-orange-500',
         },
         {
-            id:9,
+            id:10,
             src:github,
             title:'GitHub',
             style:'shadow-gray-400',
         },
+       
     ]
 
   return (
