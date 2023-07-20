@@ -41,7 +41,7 @@ const SocialHide = () => {
                 Resume<BsFillPersonLinesFill size={20}/>
                 </>
             ),
-          href:'/Resume.pdf' ,
+          href:'/Resume.docx' ,
            style:'rounded-br-md',
            download:true,
         }
